@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style'
-import { Navbar,Hero,Stats,Business,Billing,CardDeal,Clients,CTA,Footer } from './Components'
+import { Navbar,Hero,Stats,Business,Billing,CardDeal,Footer } from './Components'
 const App = () => (
     <div className='bg-primary w-full overflow-hidden'>
      <div className={`${styles.paddingX} ${styles.flexCenter}`} >
@@ -21,9 +21,6 @@ const App = () => (
         <Business />
         <Billing />
         <CardDeal />
-        
-        <Clients />
-        <CTA />
         <Footer />
        </div>
       </div>
